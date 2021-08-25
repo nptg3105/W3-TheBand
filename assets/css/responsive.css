@@ -1,0 +1,96 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .m-full-width{
+        width: 100%;
+    }
+    #nav .subnav a{
+        padding: 5px 12px;
+        }
+    .contact-form .form-control{
+            padding: 16px;
+        }
+        
+        
+}
+/* Tablet + Mobile */
+@media(max-width: 1023px){
+    .btn{
+        padding: 16px 16px;
+    }
+    .contact-content {
+        line-height: 2;
+    }
+    #footer .socials-list {
+        font-size: 32px;
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    .copyright{
+        font-size: 24px;
+    }
+    .copyright a {
+        padding: 8px 0;
+        display: inline-block;
+    }
+    
+}
+/* Mobile */
+@media (max-width: 739px){
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+    
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > ul > li{
+        display: block;
+        position: relative;
+    }
+    #nav > ul > li:first-child{
+        display: inline-block;
+    }
+    #nav ul li a {
+        padding: 2px 24px;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+    color: #fff;
+    padding: 5px 30px;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .buy-tickets-btn{
+        padding: 18px 16px;
+    }
+    .send-btn {
+        padding: 16px 15px;
+    }
+    .contact-content {
+        margin-bottom: 32px;
+    }
+}
